@@ -1,0 +1,666 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*first starts*/
+.first {
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/antique-cafe-bg-01.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    padding-bottom: 192px;
+
+}
+.first .header{
+    width: 100%;
+    background-color: rgba(0,0,0,0.6);
+    margin-bottom: 80px;
+}
+.first .header ul{
+    float: right;
+    margin-right: 20px;
+}
+.first .header li{
+    float: left;
+    margin-left: 45px;
+    list-style: none;
+}
+.first .header a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    color: #c96;
+}
+.first .header a:hover{
+    border-bottom: 4px solid #c96;
+}
+.first .banner{
+    width: 35%;
+    margin: 0 auto;
+    text-align: center;
+}
+.first .banner .one {
+    width: 86%;
+    padding: 30px 30px;
+    background-color: rgba(0,0,0,0.6);
+}
+.first .banner .one h1{
+    font-size: 50px;
+    color: white;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+.first .banner .one p{
+    margin: 0;
+    color: #c96;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.first .banner .two{
+    width: 86%;
+    padding: 25px 23px 25px 35px;
+    background-color: rgba(0,0,0,0.6);
+    margin-top: 20px;
+    text-align: left;
+    color: white;
+    font-size: 16px;
+}
+.first .banner .two p{
+    font-weight: 300;
+    line-height: 28px;
+}
+.first .banner button{
+    margin-top: 20px;
+    background-color: rgba(0,0,0,.6);
+    color: #c96;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.first .banner button span{
+    margin-right: 10px;
+}
+.first .banner button:hover{
+    color: white;
+}
+
+/*first ends*/
+
+/*second starts*/
+.second{
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/antique-cafe-bg-02.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    padding-top: 150px;
+    padding-bottom: 350px;
+}
+.second .heading{
+    width: 25%;
+    background-color:white;
+    margin: 0 auto;
+    text-align: center;
+    padding: 18px 0;
+    border-radius: 20px;
+
+}
+.second .heading h2{
+    font-size: 35px;
+    font-weight: 500;
+    margin: 0;
+    color: #544639;
+}
+.second .two-section{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.second .two-section .left{
+    width: 45%;
+    float: left;
+    background-color: #544639;
+    padding: 40px 0px 40px 40px;
+    border-radius: 20px;
+}
+.second .two-section .right{
+    width: 45%;
+    float: right;
+    background-color: #544639;
+    padding: 40px 40px 40px 0px;
+    border-radius: 20px;
+
+}
+.second .two-section .left .box{
+    width: 100%;
+    margin-top: 20px;
+}
+.second .two-section .left .box .image{
+    float: left;
+    width: 30%;
+}
+.second .two-section .left .box .image img{
+    width: 100%;
+}
+
+.second .two-section .left .box .text{
+    float: right;
+    width: 65%;
+}
+.second .two-section .left .box .text h3{
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #fc6;
+    font-weight: 400;
+}
+.second .two-section .left .box .text p{
+    color: white;
+}
+.second .two-section .right .box{
+    width: 100%;
+    margin-top: 20px;
+}
+.second .two-section .right .box .image{
+    float: right;
+    width: 30%;
+}
+.second .two-section .right .box .image img{
+    width: 100%;
+}
+
+.second .two-section .right .box .text{
+    float: left;
+    width: 65%;
+    text-align: right;
+}
+.second .two-section .right .box .text h3{
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #fc6;
+    font-weight: 400;
+}
+.second .two-section .right .box .text p{
+    color: white;
+}
+
+
+/*second ends*/
+
+
+/*third starts*/
+.third{
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/antique-cafe-bg-03.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 192px 0;
+}
+.third .main{
+    width: 40%;
+    float: right;
+    margin-right: 150px;
+}
+.third .main .white{
+    width: 100%;
+    background-color: rgba(255,255,255,0.6);
+    border-radius: 20px;
+    padding: 40px 40px 40px 40px;
+}
+.third .main .white h2{
+    font-size: 40px;
+    font-weight: 400;
+    color: #066;
+}
+.third .main .white p{
+    font-size: 20px;
+    line-height: 35px;
+}
+.third .main button{
+    width: 200px;
+    height: 60px;
+    background-color:#066 ;
+    border: none;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-size: 24px;
+    color: white;
+}
+.third .main button:hover{
+    background-color:rgb(19, 156, 156) ;
+}
+.third .main button p{
+    margin: 0;
+}
+.third .main button span{
+    margin-right: 10px;
+}
+
+
+/*third ends*/
+
+
+/*forth starts*/
+.forth{
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/antique-cafe-bg-04.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 192px 0;
+}
+.forth .two-section{
+    width:85%;
+    margin: 0 auto;
+}
+.forth .two-section .left{
+    width: 42%;
+    float: left;
+    background-color: rgba(255,255,255,0.6);
+    padding: 40px 20px 60px 30px;
+    text-align: center;
+    border-radius: 20px;
+}
+.forth .two-section .left .text{
+    text-align: left;
+}
+
+.forth .two-section .left .text h2{
+    font-size: 40px;
+    font-weight: 400;
+    color:#066 ;
+}
+.forth .two-section .left .text p{
+    font-size: 20px;
+    line-height: 35px;
+}
+.forth .two-section .left .text span{
+    color:#066 ;   
+}
+.forth .two-section .left button{
+    width: 250px;
+    height: 70px;
+    font-size: 20px;
+    color: white;
+    background-color: #066;
+    border: none;
+    border-radius: 10px;
+}
+.forth .two-section .left button span{
+    margin-right: 10px;
+}
+.forth .two-section .left button:hover{
+    background-color:rgb(19, 156, 156) ;
+}
+.forth .two-section .right{
+    width: 42%;
+    float: right;
+    background-color: rgba(0,0,0,0.6);
+    padding: 40px 30px 60px 30px;
+    border-radius: 20px;
+}
+.forth .two-section .right input{
+    width: 100%;
+    height: 65px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid #fc6;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.forth .two-section .right textarea{
+    width: 100%;
+    height: 200px;
+    background-color: transparent;
+    border-bottom: 3px solid #fc6;
+    font-size: 20px;
+    margin-top: 15px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.forth .two-section .right button{
+    border: none;
+    background-color: transparent;
+    margin-top: 12px;
+    font-size: 25px;
+    float: right;
+    color: white;
+    font-weight: 400;
+}
+.forth .two-section .right button:hover{
+    color: #fc6;
+}
+
+
+/*forth end*/
+
+
+
+@media only screen and (max-width:1060px){
+    .forth .two-section .left .text p{
+        margin: 0;
+        margin-top: 10px;
+    }
+    .forth .two-section .left button{
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width:980px){
+    .first .banner{
+        width: 40%;
+    }
+    .second .heading h2{
+        font-size: 30px;
+    }
+    .second .heading{
+        padding: 18px 10px;
+
+    }
+}
+@media only screen and (max-width:842px){
+    .second{
+        height: 250%;
+        
+    }
+    .second .heading{
+        width: 40%;
+    }
+    .second .heading h2{
+        font-size: 40px;
+    }
+    .second .two-section{
+        width: 70%;
+    }
+    .second .two-section .left{
+        width: 80%;
+        clear: both;
+        padding: 40px 80px 40px 40px;
+
+    }
+    .second .two-section .right{
+        width: 80%;
+        clear: both;
+        padding: 40px 40px 40px 80px;
+        margin-top: 40px;
+    }
+    .second .two-section .left .box .image{
+        width: 40%;
+    }
+    .second .two-section .left .box .text{
+        width: 50%;
+    }
+    
+    .second .two-section .left .box .text h3{
+        font-size:25px;
+    }
+    .second .two-section .left .box .text p{
+        font-size: 20px;
+    }
+    .second .two-section .right .box .image{
+        width: 40%;
+    }
+    .second .two-section .right .box .text{
+        width: 50%;
+    }
+    
+    .second .two-section .right .box .text h3{
+        font-size:25px;
+    }
+    .second .two-section .right .box .text p{
+        font-size: 20px;
+    }
+    .forth{
+        height: 190%;
+    }
+    .third .main{
+        width: 60%;
+        clear: both;
+        margin-right: 210px;
+    }
+    .forth .two-section{
+        width:70%;
+    }
+    .forth .two-section .left{
+        width: 92%;
+        clear: both;
+    }
+    .forth .two-section .right{
+        width: 90%;
+        clear: both;
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .first .banner{
+        width: 45%;
+    }
+}
+@media only screen and (max-width:699px){
+    .second .heading h2{
+        font-size: 35px;
+    }
+    .second .two-section .right .box .text h3{
+        font-size:22px;
+    }
+    .second .two-section .right .box .text p{
+        font-size:18px;
+    }
+    .second .two-section .left .box .text h3{
+        font-size:22px;
+    }
+    .second .two-section .left .box .text p{
+        font-size:18px;
+    }
+    .second .two-section .left{
+        padding: 40px 50px 40px 40px;
+    }
+    .second .two-section .right{
+        padding: 40px 40px 40px 50px;
+    }
+    .third .main{
+        margin-right: 180px;
+    }
+}
+@media only screen and (max-width:674px){
+    .first .banner .one h1{
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width:672px){
+    .first .banner{
+        width: 50%;
+    }
+    .second .two-section .left{
+        padding: 40px 60px 40px 40px;
+    }
+    .second .two-section .right{
+        padding: 40px 40px 40px 60px;
+    }
+}
+@media only screen and (max-width:612px){
+    .first .banner{
+        width: 60%;
+    }
+    .second .heading h2{
+        font-size: 30px;
+    }
+    .second .two-section{
+        width: 80%;
+    }
+    .second .two-section .left{
+        width: 90%;
+        padding: 40px 25px 40px 30px;
+    }
+    .second .two-section .right{
+        width: 90%;
+        padding: 40px 30px 40px 25px;
+    }
+    .third .main{
+        width: 65%;
+        margin-right: 145px;
+    }
+   
+    .forth .two-section .right{
+        padding: 40px 25px 60px 20px;
+    }
+    .forth .two-section .left{
+        padding: 40px 15px 60px 20px;
+        
+    }
+    .forth .two-section{
+        width:80%;
+    }
+}
+@media only screen and (max-width:574px){
+    .first .header li{
+        margin-left: 30px;
+    }
+    .first .header a{
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width:569px){
+    
+    .second .two-section .left{
+        padding: 40px 20px 40px 30px;
+    }
+    .second .two-section .right{
+        padding: 40px 30px 40px 20px;
+    }
+    .third .main{
+        margin-right: 135px;
+    }
+}
+@media only screen and (max-width:524px){
+    .second .heading h2{
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width:506px){
+    .first .banner{
+        width: 70%;
+    }
+    .first .banner .one h1{
+        font-size: 40px;
+    }
+    
+    .second .two-section .left .box .text{
+        width: 55%;
+    }
+    .second .two-section .right .box .text{
+        width: 55%;
+    }
+    .second .two-section .left{
+        padding: 40px 15px 40px 30px;
+    }
+    .second .two-section .right{
+        padding: 40px 30px 40px 15px;
+    }
+    .second{
+        padding-bottom: 150px;
+    }
+    .third .main{
+        margin-right: 130px;
+    }
+    .third{
+        padding-bottom: 250px;
+    }
+}
+@media only screen and (max-width:458px){
+    .first .header li{
+        margin-left: 25px;
+    }
+    .first .header a{
+        font-size: 20px;
+    }
+    .second .two-section .right .box .text h3{
+        font-size:20px;
+    }
+    .second .two-section .right .box .text p{
+        font-size:15px;
+    }
+    .second .two-section .left .box .text h3{
+        font-size:20px;
+    }
+    .second .two-section .left .box .text p{
+        font-size:15px;
+    }
+    .second .two-section .left{
+        padding: 40px 10px 40px 30px;
+    }
+    .second .two-section .right{
+        padding: 40px 30px 40px 10px;
+    }
+    .second{
+        padding-bottom: 100px;
+    }
+    .third .main{
+        margin-right: 117px;
+    }
+    .third .main .white h2{
+        font-size: 30px;
+    }
+    .third .main .white p{
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width:436px){
+    .second .heading h2{
+        font-size: 25px;
+    }
+    .second .heading{
+        width: 50%;
+    }
+    .second .two-section{
+        margin-top: 50px;
+    }
+}
+@media only screen and (max-width:400px){
+    .second .two-section .left{
+        padding: 40px 10px 40px 20px;
+    }
+    .second .two-section .right{
+        padding: 40px 20px 40px 10px;
+    }
+    .third .main{
+        margin-right: 110px;
+    }
+    
+   
+    .forth .two-section .left{
+        width: 88%;
+    }
+    .forth .two-section .right{
+        width: 86%;
+        
+    }
+}
+
+ 
+
+
+
+/*font-family: 'Oswald', sans-serif;
+font-family: 'Raleway', sans-serif;*/
